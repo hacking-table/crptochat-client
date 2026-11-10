@@ -1,0 +1,6 @@
+*.exe
+crptochat
+crptochat-*
+dist/
+build/
+.DS_Store
