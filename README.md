@@ -1,12 +1,12 @@
 # crptochat — cliente
 
-Binários do cliente de terminal do crptochat. **Este repositório não contém o código-fonte do aplicativo.**
+Binários do cliente de terminal do crptochat (espelho das releases). O código-fonte está em [hacking-table/crptochat-oss](https://github.com/hacking-table/crptochat-oss).
 
 O crptochat é um chat de terminal com criptografia ponta a ponta, servidor cego e transferência de arquivos P2P. As chaves nascem e ficam no seu computador (ou num pendrive).
 
 ## Baixar
 
-Abra a [página de Releases](https://github.com/diegobnx/crptochat-client/releases/latest) e baixe o arquivo da sua plataforma:
+Baixe pelo site oficial, [crptochat.acpt.app.br/downloads](https://crptochat.acpt.app.br/downloads/), ou pela [página de Releases](https://github.com/hacking-table/crptochat-client/releases/latest), e escolha o arquivo da sua plataforma:
 
 | Arquivo | Plataforma |
 |---|---|
@@ -67,7 +67,7 @@ Para gravar e ouvir áudio com qualidade melhor, instale o `ffmpeg`. Sem ele, a 
 
 ## O que este pacote não esconde
 
-O binário é gerado com PyInstaller. O código-fonte `.py` não está neste repositório e não aparece em texto claro no arquivo, mas o bytecode Python ainda vai dentro do pacote e **pode ser extraído e descompilado**. Isso serve para distribuir o cliente sem publicar o repositório da aplicação; não trate o binário como segredo nem como proteção forte contra engenharia reversa.
+O binário é gerado com PyInstaller. O código-fonte `.py` não está neste repositório e não aparece em texto claro no arquivo, mas o bytecode Python ainda vai dentro do pacote e **pode ser extraído e descompilado**. O código é aberto em [crptochat-oss](https://github.com/hacking-table/crptochat-oss); não trate o binário como segredo nem como proteção forte contra engenharia reversa.
 
 ## Licença
 
